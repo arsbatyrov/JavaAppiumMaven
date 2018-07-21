@@ -50,12 +50,13 @@ public class Platform {
     {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName","Android");
+        capabilities.setCapability("avd","and_appium");
         capabilities.setCapability("deviceName","AndroidTestDevice");
         capabilities.setCapability("platformVersion","8.0");
         capabilities.setCapability("automationName","Appium");
         capabilities.setCapability("appPackage","org.wikipedia");
         capabilities.setCapability("appActivity",".main.MainActivity");
-        capabilities.setCapability("app","/Users/abatyrov/Desktop/JavaAppiumAutomation/apks/org.wikipedia.apk");
+        capabilities.setCapability("app","/Users/vitalijkotov/JavaAppiumMaven/apks/org.wikipedia.apk");
         return capabilities;
     }
 
@@ -65,7 +66,7 @@ public class Platform {
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("deviceName", "iPhone SE");
         capabilities.setCapability("platformVersion", "11.4");
-        capabilities.setCapability("app", "/Users/abatyrov/Desktop/JavaAppiumAutomation/apks/Wikipedia.app");
+        capabilities.setCapability("app", "/Users/vitalijkotov/JavaAppiumMaven/apks/Wikipedia.app");
         return capabilities;
     }
 
