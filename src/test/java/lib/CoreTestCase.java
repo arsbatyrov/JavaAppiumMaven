@@ -57,6 +57,13 @@ public class CoreTestCase extends TestCase {
         }
     }
 
+    protected void openWikiWebPage()
+    {
+        if (Platform.getInstance().isMW()) {
+            driver.get("https://wikipedia.org/");
+        }
+    }
+
     private void skipWelcomePageForIOSApp()
     {
         if (Platform.getInstance().isIOS()) {
