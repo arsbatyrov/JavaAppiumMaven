@@ -1,7 +1,7 @@
 package lib.ui;
 
-import io.appium.java_client.AppiumDriver;
 import lib.Platform;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 abstract public class MyListsPageObject extends MainPageObject{
 
@@ -19,7 +19,7 @@ abstract public class MyListsPageObject extends MainPageObject{
         return ARTICLE_BY_TITLE_TPL.replace("{TITLE}", article_title);
     }
 
-    public MyListsPageObject(AppiumDriver driver)
+    public MyListsPageObject(RemoteWebDriver driver)
     {
         super(driver);
     }
@@ -58,7 +58,7 @@ abstract public class MyListsPageObject extends MainPageObject{
         );
 
         if (Platform.getInstance().isIOS()) {
-        this.clickElementToTheRightUpperCorner(article_xpath, "Cannot find saved article");
+            this.clickElementToTheRightUpperCorner(article_xpath, "Cannot find saved article");
         }
 
         this.waitForArticleToDisappearByTitle(article_title);
