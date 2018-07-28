@@ -10,7 +10,8 @@ abstract public class ArticlePageObject extends MainPageObject
         TITLE,
         FOOTER_ELEMENT,
         OPTIONS_BUTTON,
-        OPTIONS_ADD_TO_MY_LIST_BUTTON ,
+        OPTIONS_ADD_TO_MY_LIST_BUTTON,
+        OPTION_REMOVE_FROM_MY_LIST_BUTTON,
         ADD_TO_MY_LIST_OVERLAY,
         MY_LIST_NAME_INPUT,
         MY_LIST_OK_BUTTON,
@@ -103,15 +104,38 @@ abstract public class ArticlePageObject extends MainPageObject
 
     public void addArticlesToMySaved()
     {
+        if (Platform.getInstance().isMW()) {
+            this.removeArticleFromSavedIfItAdded();
+        }
+
         this.waitForElementAndClick(OPTIONS_ADD_TO_MY_LIST_BUTTON, "Cannot find option to add article to reading list", 5);
+    }
+
+    public void removeArticleFromSavedIfItAdded()
+    {
+        if (this.isElementPresent(OPTION_REMOVE_FROM_MY_LIST_BUTTON)) {
+            this.waitForElementAndClick(
+                    OPTION_REMOVE_FROM_MY_LIST_BUTTON,
+                    "Cannot click button to remove an article from saved",
+                    1
+            );
+            this.waitForElementPresent(
+                    OPTIONS_ADD_TO_MY_LIST_BUTTON,
+                    "Cannot find button to add an article to saved list after removing it from this list before."
+            );
+        }
     }
 
     public void closeArticle()
     {
-        this.waitForElementAndClick(
-                CLOSE_ARTICLE_BUTTON,
-                "Cannot close article, cannot find X link",
-                5
-        );
+        if (Platform.getInstance().isIOS() || Platform.getInstance().isAndroid()) {
+            this.waitForElementAndClick(
+                    CLOSE_ARTICLE_BUTTON,
+                    "Cannot close article, cannot find X link",
+                    5
+            );
+        } else {
+            System.out.println("Method closeArticle() do nothing for platform " + Platform.getInstance().getPlatformVar());
+        }
     }
 }
