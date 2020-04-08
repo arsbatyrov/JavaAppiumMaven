@@ -6,6 +6,8 @@ import lib.ui.WelcomePageObject;
 import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.time.Duration;
+
 public class CoreTestCase extends TestCase {
 
     protected RemoteWebDriver driver;
@@ -52,7 +54,7 @@ public class CoreTestCase extends TestCase {
     {
         if (driver instanceof AppiumDriver) {
             AppiumDriver driver = (AppiumDriver) this.driver;
-            driver.runAppInBackground(seconds);
+            driver.runAppInBackground(Duration.ofSeconds(seconds));
         } else {
             System.out.println("Method backgroundApp() do nothing for platform " + Platform.getInstance().getPlatformVar());
         }
