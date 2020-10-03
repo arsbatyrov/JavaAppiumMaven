@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: tests.MyListsTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in tests.MyListsTests
+testSaveFirstArticleToMyList(tests.MyListsTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Cannot detect type of the Driver. Platform value: null
+

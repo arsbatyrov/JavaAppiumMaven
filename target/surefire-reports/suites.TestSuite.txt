@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: suites.TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.128 s <<< FAILURE! - in suites.TestSuite
+testCompareArticleTitle(tests.ArticleTests)  Time elapsed: 0.036 s  <<< ERROR!
+java.lang.Exception: Cannot detect type of the Driver. Platform value: null
+
+testSwipeArticle(tests.ArticleTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Cannot detect type of the Driver. Platform value: null
+
+testSaveFirstArticleToMyList(tests.MyListsTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Cannot detect type of the Driver. Platform value: null
+
