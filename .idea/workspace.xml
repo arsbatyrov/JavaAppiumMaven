@@ -5,7 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2092a53-6e93-414a-aef9-1b5751b986cd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/CoreTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/ArticlePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/MainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/ui/SearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/ui/SearchPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ArticleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ArticleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChangeAppConditionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ChangeAppConditionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MyListsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MyListsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/11d9b451-1062-442b-80a2-826609c20614-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/17e7bcbe-06da-49f0-a08e-8a51aa57293f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1d8127d1-8a84-4f61-8349-7d945a9dd518-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1df8392c-542b-4202-86a0-dfc90c5c4248-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3f7fb090-005f-4b1f-9e3a-223b84f7741a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/429570c4-4e2d-4042-9d8a-a6bef13c1fbf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4597b690-5f68-4956-9460-111fe4738334-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/49a7f094-bd0c-441f-a7da-df092cbe5837-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/66a49718-d9e6-49d3-8b94-ae129e6c6e4c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/74618590-e86f-437f-93df-75cfb9fd8fe0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/77bef675-d1ba-45a0-8f73-c33c1bdb83ff-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/872ae7c8-fe42-45ae-8a15-d8803db34ba4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8c2df4ef-b355-4d00-907d-4331a838a3f7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9b8c32bf-cebe-4bab-a9ef-c71679bf52e4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ab215ed1-04d3-4bd4-8d67-8bb13a6c1e5b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cd0c84b9-66d6-46f9-8c1d-1f51651fd551-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/deaf0d1b-c525-4241-80a1-d4c6bc84a599-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/df2b87d4-b24f-4603-9c2a-f9bb2d056d8b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e524a03a-ba46-44c0-9a07-4447cba9343a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e540b2a5-8867-426a-b529-a487c90226a6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-suites.TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-suites.TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ArticleTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ArticleTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ChangeAppConditionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ChangeAppConditionTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/suites.TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/suites.TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.ArticleTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.ArticleTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.ChangeAppConditionTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.ChangeAppConditionTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/CoreTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/CoreTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/ui/ArticlePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/ui/ArticlePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/ui/SearchPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/ui/SearchPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ArticleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ArticleTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ChangeAppConditionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ChangeAppConditionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MyListsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/MyListsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SearchTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +97,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Maven.JavaAppium [test]">
+  <component name="RunManager" selected="JUnit.ArticleTests.testCompareArticleTitle">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -86,6 +129,23 @@
       <envs>
         <env name="PLATFORM" value="mobile_web" />
       </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleTests.testCompareArticleTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ArticleTests" />
+      <option name="METHOD_NAME" value="testCompareArticleTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,9 +221,11 @@
     <list>
       <item itemvalue="JUnit.ArticleTests" />
       <item itemvalue="Maven.JavaAppium [test]" />
+      <item itemvalue="JUnit.ArticleTests.testCompareArticleTitle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleTests.testCompareArticleTitle" />
         <item itemvalue="JUnit.ArticleTests" />
       </list>
     </recent_temporary>
@@ -187,22 +249,26 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1601736168485" />
-    <state width="1878" height="496" key="GridCell.Tab.0.bottom" timestamp="1601753746498">
+    <state x="730" y="501" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602234590413">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1601753746498" />
-    <state width="1878" height="496" key="GridCell.Tab.0.center" timestamp="1601753746497">
+    <state x="730" y="501" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1200@0.0.1920.1200" timestamp="1602234590413" />
+    <state width="1878" height="496" key="GridCell.Tab.0.bottom" timestamp="1601826322756">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1601753746497" />
-    <state width="1878" height="496" key="GridCell.Tab.0.left" timestamp="1601753746496">
+    <state width="1878" height="496" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1601826322756" />
+    <state width="1878" height="496" key="GridCell.Tab.0.center" timestamp="1601826322755">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1601753746496" />
-    <state width="1878" height="496" key="GridCell.Tab.0.right" timestamp="1601753746497">
+    <state width="1878" height="496" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1601826322755" />
+    <state width="1878" height="496" key="GridCell.Tab.0.left" timestamp="1601826322754">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="496" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1601753746497" />
+    <state width="1878" height="496" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1601826322754" />
+    <state width="1878" height="496" key="GridCell.Tab.0.right" timestamp="1601826322755">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="496" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1601826322755" />
     <state width="1878" height="414" key="GridCell.Tab.1.bottom" timestamp="1601725457157">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -223,6 +289,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1601736142163" />
+    <state x="583" y="217" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602230299563">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="583" y="217" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1602230299563" />
     <state x="758" y="521" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601727744810">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -231,9 +301,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="625" y="285" width="670" height="675" key="run.anything.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1601727442915" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1601645428468">
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1603893573278">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1601645428468" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1603893573278" />
   </component>
 </project>

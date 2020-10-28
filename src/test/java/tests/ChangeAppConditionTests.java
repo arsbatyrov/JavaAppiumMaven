@@ -1,5 +1,8 @@
 package tests;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
+import io.qameta.allure.junit4.DisplayName;
 import lib.CoreTestCase;
 import lib.Platform;
 import lib.ui.ArticlePageObject;
@@ -12,6 +15,9 @@ import org.junit.Test;
 public class ChangeAppConditionTests extends CoreTestCase
 {
     @Test
+    @DisplayName("Check search result screen on LANDSCAPE orientation")
+    @Description("We open search result screen, changing screen orientation from PORTRAIT to LANDSCAPE and make sure it still works")
+    @Step("Starting test testChangeScreenOrientationOnSearchResults")
     public void testChangeScreenOrientationOnSearchResults()
     {
         if (Platform.getInstance().isMW()) {
@@ -21,7 +27,7 @@ public class ChangeAppConditionTests extends CoreTestCase
         SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();
-        SearchPageObject.typeSeachLine("Java");
+        SearchPageObject.typeSearchLine("Java");
         SearchPageObject.clickByArticleWithSubstring("Object-oriented programming language");
 
         ArticlePageObject ArticlePageObject = ArticlePageObjectFactory.get(driver);
@@ -46,6 +52,9 @@ public class ChangeAppConditionTests extends CoreTestCase
     }
 
     @Test
+    @DisplayName("Check search result screen works OK after background the app")
+    @Description("We open search result screen, send app to background mode and check if the app works fine after it")
+    @Step("Starting test testCheckSearchArticleInBackground")
     public void testCheckSearchArticleInBackground()
     {
         if (Platform.getInstance().isMW()) {
@@ -55,7 +64,7 @@ public class ChangeAppConditionTests extends CoreTestCase
         SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();
-        SearchPageObject.typeSeachLine("Java");
+        SearchPageObject.typeSearchLine("Java");
         SearchPageObject.waitForSearchResult("Object-oriented programming language");
         this.backgroundApp(2);
         SearchPageObject.waitForSearchResult("Object-oriented programming language");

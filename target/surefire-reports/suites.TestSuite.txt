@@ -1,13 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: suites.TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.128 s <<< FAILURE! - in suites.TestSuite
-testCompareArticleTitle(tests.ArticleTests)  Time elapsed: 0.036 s  <<< ERROR!
-java.lang.Exception: Cannot detect type of the Driver. Platform value: null
-
-testSwipeArticle(tests.ArticleTests)  Time elapsed: 0 s  <<< ERROR!
-java.lang.Exception: Cannot detect type of the Driver. Platform value: null
-
-testSaveFirstArticleToMyList(tests.MyListsTests)  Time elapsed: 0 s  <<< ERROR!
-java.lang.Exception: Cannot detect type of the Driver. Platform value: null
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.752 s <<< FAILURE! - in suites.TestSuite
+testSaveFirstArticleToMyList(tests.MyListsTests)  Time elapsed: 10.949 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: Cannot find option to add article to reading list
+ (tried for 5 second(s) with 500 milliseconds interval)
+	at tests.MyListsTests.testSaveFirstArticleToMyList(MyListsTests.java:36)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: #page-actions li#ca-watch.mw-ui-icon-mf-watch button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-7.local', ip: '2a00:1370:812b:b5f0:c3b:a49f:c8b4:b4fe', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at tests.MyListsTests.testSaveFirstArticleToMyList(MyListsTests.java:36)
 
