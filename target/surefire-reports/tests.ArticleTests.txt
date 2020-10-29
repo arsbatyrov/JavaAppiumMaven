@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.ArticleTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.318 s - in tests.ArticleTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.941 s - in tests.ArticleTests
