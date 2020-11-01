@@ -6,9 +6,93 @@
   <component name="ChangeListManager">
     <list default="true" id="b2092a53-6e93-414a-aef9-1b5751b986cd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaAppium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAppium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_title_screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/article_title_screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ArticleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ArticleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ArticleTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ArticleTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.ArticleTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.ArticleTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0f911f2f-50f1-420e-a13b-4780769d4f4c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2e72eea1-10e7-47ab-9854-352ed3c17925-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/405f8cb5-c80c-4830-9a20-654820f45f5c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/52c4c541-b823-4ce8-91d1-696106d089ca-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7a106b94-5b17-48db-9444-f9b6749c08c2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a3346d97-d47d-456e-ab48-14d1d4cbf2be-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b087b85d-5176-45c2-836a-24c476237c9f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c46bc924-87c1-4ee1-b013-cc3fb80d8c4f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cff0691b-5851-4379-9a2a-b60a5cb28b21-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f13bf60d-5a6d-45a9-81c0-3882848e824e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T16-59-09_506.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T16-59-23_042.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-01-27_249.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-07-17_393.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-16-47_150.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-20-53_990.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-21-57_565.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-22-48_354.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-25-48_080.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-30-05_872.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-30-30_425.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-33-25_865.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-34-46_195.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-39-54_372.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-42-51_684.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-43-29_925.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-44-01_152.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-55-06_603.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T17-56-16_028.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T18-18-28_334.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T18-19-42_583.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T18-20-27_489.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T22-35-00_099.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T22-35-48_648.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T22-49-36_669.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T23-02-53_178.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-03T23-10-16_499.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-09T09-15-29_983.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-09T09-23-08_530.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-09T10-50-10_399.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-09T12-13-07_901.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-09T12-13-25_722.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-09T12-14-03_848.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-09T12-18-52_059.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T09-26-51_229.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T09-29-20_278.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T09-35-53_535.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T09-42-18_255-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T09-42-18_255.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T09-43-19_043.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T11-33-45_612.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T11-44-05_278.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T12-29-12_169.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-10T12-31-04_193.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-26T15-37-28_842.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-26T22-41-01_813.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-26T22-49-04_673.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-26T23-34-23_819.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-26T23-35-25_809.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-27T00-15-54_246.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-27T00-35-54_345.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-27T00-36-34_854.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-27T00-37-44_617.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-27T00-39-41_642.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-27T00-40-03_862.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-28T16-20-04_634.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-28T16-47-17_468.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-29T22-30-45_245.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.CoreTestCase.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-suites.TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ArticleTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.ChangeAppConditionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.GetStartedTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.MyListsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.SearchTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.CoreTestCase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/suites.TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.ArticleTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.ChangeAppConditionTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.GetStartedTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.MyListsTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.SearchTests.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ArticleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ArticleTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
